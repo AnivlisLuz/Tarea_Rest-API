@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - ItemsTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>ItemsTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/basicTest.html">basicTest</a> &gt; ItemsTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">1</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">9.328s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">items()</td>
+<td class="success">9.328s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>Request method:	POST
+Request URI:	https://todo.ly/api/items.json
+Proxy:			&lt;none&gt;
+Request params:	&lt;none&gt;
+Query params:	&lt;none&gt;
+Form params:	&lt;none&gt;
+Path params:	&lt;none&gt;
+Headers:		Authorization=Basic dWNiQHVjYjIwMjEuY29tOjEyMzQ1
+				Accept=*/*
+				Content-Type=text/plain; charset=ISO-8859-1
+Cookies:		&lt;none&gt;
+Multiparts:		&lt;none&gt;
+Body:
+{&quot;Content&quot;:&quot;LuzItem&quot;}
+HTTP/1.1 200 OK
+Cache-Control: no-cache, no-store, must-revalidate
+Pragma: no-cache
+Content-Type: application/json; charset=utf-8
+Expires: -1
+Server: Microsoft-IIS/8.0
+Set-Cookie: ASP.NET_SessionId=ogpm04qwt0z0blkheajzhzuc; path=/; HttpOnly; SameSite=Lax
+X-AspNetMvc-Version: 2.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Sun, 08 Aug 2021 01:40:57 GMT
+Content-Length: 528
+
+{
+    &quot;Id&quot;: 10910746,
+    &quot;Content&quot;: &quot;LuzItem&quot;,
+    &quot;ItemType&quot;: 1,
+    &quot;Checked&quot;: false,
+    &quot;ProjectId&quot;: null,
+    &quot;ParentId&quot;: null,
+    &quot;Path&quot;: &quot;&quot;,
+    &quot;Collapsed&quot;: false,
+    &quot;DateString&quot;: null,
+    &quot;DateStringPriority&quot;: 0,
+    &quot;DueDate&quot;: &quot;&quot;,
+    &quot;Recurrence&quot;: null,
+    &quot;ItemOrder&quot;: null,
+    &quot;Priority&quot;: 4,
+    &quot;LastSyncedDateTime&quot;: &quot;/Date(1628386857388)/&quot;,
+    &quot;Children&quot;: [
+        
+    ],
+    &quot;DueDateTime&quot;: null,
+    &quot;CreatedDate&quot;: &quot;/Date(1628386857373)/&quot;,
+    &quot;LastCheckedDate&quot;: null,
+    &quot;LastUpdatedDate&quot;: &quot;/Date(1628386857373)/&quot;,
+    &quot;Deleted&quot;: false,
+    &quot;Notes&quot;: &quot;&quot;,
+    &quot;InHistory&quot;: false,
+    &quot;SyncClientCreationId&quot;: null,
+    &quot;DueTimeSpecified&quot;: true,
+    &quot;OwnerId&quot;: 690429
+}
+Request method:	PUT
+Request URI:	https://todo.ly/api/items/10910746.json
+Proxy:			&lt;none&gt;
+Request params:	&lt;none&gt;
+Query params:	&lt;none&gt;
+Form params:	&lt;none&gt;
+Path params:	&lt;none&gt;
+Headers:		Authorization=Basic dWNiQHVjYjIwMjEuY29tOjEyMzQ1
+				Accept=*/*
+				Content-Type=text/plain; charset=ISO-8859-1
+Cookies:		&lt;none&gt;
+Multiparts:		&lt;none&gt;
+Body:
+{&quot;Checked&quot;:true,&quot;Content&quot;:&quot;LuzItemUpdate&quot;}
+HTTP/1.1 200 OK
+Cache-Control: no-cache, no-store, must-revalidate
+Pragma: no-cache
+Content-Type: application/json; charset=utf-8
+Expires: -1
+Server: Microsoft-IIS/8.0
+Set-Cookie: ASP.NET_SessionId=uvp4nyxgkhd2usbeg0ix0nfi; path=/; HttpOnly; SameSite=Lax
+X-AspNetMvc-Version: 2.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Sun, 08 Aug 2021 01:40:59 GMT
+Content-Length: 553
+
+{
+    &quot;Id&quot;: 10910746,
+    &quot;Content&quot;: &quot;LuzItemUpdate&quot;,
+    &quot;ItemType&quot;: 1,
+    &quot;Checked&quot;: true,
+    &quot;ProjectId&quot;: null,
+    &quot;ParentId&quot;: null,
+    &quot;Path&quot;: &quot;&quot;,
+    &quot;Collapsed&quot;: false,
+    &quot;DateString&quot;: null,
+    &quot;DateStringPriority&quot;: 0,
+    &quot;DueDate&quot;: &quot;&quot;,
+    &quot;Recurrence&quot;: null,
+    &quot;ItemOrder&quot;: null,
+    &quot;Priority&quot;: 4,
+    &quot;LastSyncedDateTime&quot;: &quot;/Date(1628386859416)/&quot;,
+    &quot;Children&quot;: [
+        
+    ],
+    &quot;DueDateTime&quot;: null,
+    &quot;CreatedDate&quot;: &quot;/Date(1628386857373)/&quot;,
+    &quot;LastCheckedDate&quot;: &quot;/Date(1628386859400)/&quot;,
+    &quot;LastUpdatedDate&quot;: &quot;/Date(1628386859400)/&quot;,
+    &quot;Deleted&quot;: false,
+    &quot;Notes&quot;: &quot;&quot;,
+    &quot;InHistory&quot;: true,
+    &quot;SyncClientCreationId&quot;: null,
+    &quot;DueTimeSpecified&quot;: true,
+    &quot;OwnerId&quot;: 690429
+}
+Request method:	GET
+Request URI:	https://todo.ly/api/items/10910746.json
+Proxy:			&lt;none&gt;
+Request params:	&lt;none&gt;
+Query params:	&lt;none&gt;
+Form params:	&lt;none&gt;
+Path params:	&lt;none&gt;
+Headers:		Authorization=Basic dWNiQHVjYjIwMjEuY29tOjEyMzQ1
+				Accept=*/*
+Cookies:		&lt;none&gt;
+Multiparts:		&lt;none&gt;
+Body:			&lt;none&gt;
+HTTP/1.1 200 OK
+Cache-Control: no-cache, no-store, must-revalidate
+Pragma: no-cache
+Content-Type: application/json; charset=utf-8
+Expires: -1
+Server: Microsoft-IIS/8.0
+Set-Cookie: ASP.NET_SessionId=pdx02gjcvx12gujay3mn55rd; path=/; HttpOnly; SameSite=Lax
+X-AspNetMvc-Version: 2.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Sun, 08 Aug 2021 01:41:00 GMT
+Content-Length: 553
+
+{
+    &quot;Id&quot;: 10910746,
+    &quot;Content&quot;: &quot;LuzItemUpdate&quot;,
+    &quot;ItemType&quot;: 1,
+    &quot;Checked&quot;: true,
+    &quot;ProjectId&quot;: null,
+    &quot;ParentId&quot;: null,
+    &quot;Path&quot;: &quot;&quot;,
+    &quot;Collapsed&quot;: false,
+    &quot;DateString&quot;: null,
+    &quot;DateStringPriority&quot;: 0,
+    &quot;DueDate&quot;: &quot;&quot;,
+    &quot;Recurrence&quot;: null,
+    &quot;ItemOrder&quot;: null,
+    &quot;Priority&quot;: 4,
+    &quot;LastSyncedDateTime&quot;: &quot;/Date(1628386860633)/&quot;,
+    &quot;Children&quot;: [
+        
+    ],
+    &quot;DueDateTime&quot;: null,
+    &quot;CreatedDate&quot;: &quot;/Date(1628386857373)/&quot;,
+    &quot;LastCheckedDate&quot;: &quot;/Date(1628386859400)/&quot;,
+    &quot;LastUpdatedDate&quot;: &quot;/Date(1628386859400)/&quot;,
+    &quot;Deleted&quot;: false,
+    &quot;Notes&quot;: &quot;&quot;,
+    &quot;InHistory&quot;: true,
+    &quot;SyncClientCreationId&quot;: null,
+    &quot;DueTimeSpecified&quot;: true,
+    &quot;OwnerId&quot;: 690429
+}
+Request method:	DELETE
+Request URI:	https://todo.ly/api/items/10910746.json
+Proxy:			&lt;none&gt;
+Request params:	&lt;none&gt;
+Query params:	&lt;none&gt;
+Form params:	&lt;none&gt;
+Path params:	&lt;none&gt;
+Headers:		Authorization=Basic dWNiQHVjYjIwMjEuY29tOjEyMzQ1
+				Accept=*/*
+Cookies:		&lt;none&gt;
+Multiparts:		&lt;none&gt;
+Body:			&lt;none&gt;
+HTTP/1.1 200 OK
+Cache-Control: no-cache, no-store, must-revalidate
+Pragma: no-cache
+Content-Type: application/json; charset=utf-8
+Expires: -1
+Server: Microsoft-IIS/8.0
+Set-Cookie: ASP.NET_SessionId=3bcvodeecdjvrrgzwtvk4hwd; path=/; HttpOnly; SameSite=Lax
+X-AspNetMvc-Version: 2.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Sun, 08 Aug 2021 01:41:01 GMT
+Content-Length: 552
+
+{
+    &quot;Id&quot;: 10910746,
+    &quot;Content&quot;: &quot;LuzItemUpdate&quot;,
+    &quot;ItemType&quot;: 1,
+    &quot;Checked&quot;: true,
+    &quot;ProjectId&quot;: null,
+    &quot;ParentId&quot;: null,
+    &quot;Path&quot;: &quot;&quot;,
+    &quot;Collapsed&quot;: false,
+    &quot;DateString&quot;: null,
+    &quot;DateStringPriority&quot;: 0,
+    &quot;DueDate&quot;: &quot;&quot;,
+    &quot;Recurrence&quot;: null,
+    &quot;ItemOrder&quot;: null,
+    &quot;Priority&quot;: 4,
+    &quot;LastSyncedDateTime&quot;: &quot;/Date(1628386861944)/&quot;,
+    &quot;Children&quot;: [
+        
+    ],
+    &quot;DueDateTime&quot;: null,
+    &quot;CreatedDate&quot;: &quot;/Date(1628386857373)/&quot;,
+    &quot;LastCheckedDate&quot;: &quot;/Date(1628386859400)/&quot;,
+    &quot;LastUpdatedDate&quot;: &quot;/Date(1628386861943)/&quot;,
+    &quot;Deleted&quot;: true,
+    &quot;Notes&quot;: &quot;&quot;,
+    &quot;InHistory&quot;: true,
+    &quot;SyncClientCreationId&quot;: null,
+    &quot;DueTimeSpecified&quot;: true,
+    &quot;OwnerId&quot;: 690429
+}
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 6.8</a> at Aug 7, 2021, 9:41:08 PM</p>
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="basicTest.ItemsTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-08-08T01:40:59" hostname="LUZ" time="9.328">
+  <properties/>
+  <testcase name="items()" classname="basicTest.ItemsTest" time="9.328"/>
+  <system-out><![CDATA[Request method:	POST
+Request URI:	https://todo.ly/api/items.json
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Basic dWNiQHVjYjIwMjEuY29tOjEyMzQ1
+				Accept=*/*
+				Content-Type=text/plain; charset=ISO-8859-1
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{"Content":"LuzItem"}
+HTTP/1.1 200 OK
+Cache-Control: no-cache, no-store, must-revalidate
+Pragma: no-cache
+Content-Type: application/json; charset=utf-8
+Expires: -1
+Server: Microsoft-IIS/8.0
+Set-Cookie: ASP.NET_SessionId=ogpm04qwt0z0blkheajzhzuc; path=/; HttpOnly; SameSite=Lax
+X-AspNetMvc-Version: 2.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Sun, 08 Aug 2021 01:40:57 GMT
+Content-Length: 528
+
+{
+    "Id": 10910746,
+    "Content": "LuzItem",
+    "ItemType": 1,
+    "Checked": false,
+    "ProjectId": null,
+    "ParentId": null,
+    "Path": "",
+    "Collapsed": false,
+    "DateString": null,
+    "DateStringPriority": 0,
+    "DueDate": "",
+    "Recurrence": null,
+    "ItemOrder": null,
+    "Priority": 4,
+    "LastSyncedDateTime": "/Date(1628386857388)/",
+    "Children": [
+        
+    ],
+    "DueDateTime": null,
+    "CreatedDate": "/Date(1628386857373)/",
+    "LastCheckedDate": null,
+    "LastUpdatedDate": "/Date(1628386857373)/",
+    "Deleted": false,
+    "Notes": "",
+    "InHistory": false,
+    "SyncClientCreationId": null,
+    "DueTimeSpecified": true,
+    "OwnerId": 690429
+}
+Request method:	PUT
+Request URI:	https://todo.ly/api/items/10910746.json
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Basic dWNiQHVjYjIwMjEuY29tOjEyMzQ1
+				Accept=*/*
+				Content-Type=text/plain; charset=ISO-8859-1
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{"Checked":true,"Content":"LuzItemUpdate"}
+HTTP/1.1 200 OK
+Cache-Control: no-cache, no-store, must-revalidate
+Pragma: no-cache
+Content-Type: application/json; charset=utf-8
+Expires: -1
+Server: Microsoft-IIS/8.0
+Set-Cookie: ASP.NET_SessionId=uvp4nyxgkhd2usbeg0ix0nfi; path=/; HttpOnly; SameSite=Lax
+X-AspNetMvc-Version: 2.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Sun, 08 Aug 2021 01:40:59 GMT
+Content-Length: 553
+
+{
+    "Id": 10910746,
+    "Content": "LuzItemUpdate",
+    "ItemType": 1,
+    "Checked": true,
+    "ProjectId": null,
+    "ParentId": null,
+    "Path": "",
+    "Collapsed": false,
+    "DateString": null,
+    "DateStringPriority": 0,
+    "DueDate": "",
+    "Recurrence": null,
+    "ItemOrder": null,
+    "Priority": 4,
+    "LastSyncedDateTime": "/Date(1628386859416)/",
+    "Children": [
+        
+    ],
+    "DueDateTime": null,
+    "CreatedDate": "/Date(1628386857373)/",
+    "LastCheckedDate": "/Date(1628386859400)/",
+    "LastUpdatedDate": "/Date(1628386859400)/",
+    "Deleted": false,
+    "Notes": "",
+    "InHistory": true,
+    "SyncClientCreationId": null,
+    "DueTimeSpecified": true,
+    "OwnerId": 690429
+}
+Request method:	GET
+Request URI:	https://todo.ly/api/items/10910746.json
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Basic dWNiQHVjYjIwMjEuY29tOjEyMzQ1
+				Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Cache-Control: no-cache, no-store, must-revalidate
+Pragma: no-cache
+Content-Type: application/json; charset=utf-8
+Expires: -1
+Server: Microsoft-IIS/8.0
+Set-Cookie: ASP.NET_SessionId=pdx02gjcvx12gujay3mn55rd; path=/; HttpOnly; SameSite=Lax
+X-AspNetMvc-Version: 2.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Sun, 08 Aug 2021 01:41:00 GMT
+Content-Length: 553
+
+{
+    "Id": 10910746,
+    "Content": "LuzItemUpdate",
+    "ItemType": 1,
+    "Checked": true,
+    "ProjectId": null,
+    "ParentId": null,
+    "Path": "",
+    "Collapsed": false,
+    "DateString": null,
+    "DateStringPriority": 0,
+    "DueDate": "",
+    "Recurrence": null,
+    "ItemOrder": null,
+    "Priority": 4,
+    "LastSyncedDateTime": "/Date(1628386860633)/",
+    "Children": [
+        
+    ],
+    "DueDateTime": null,
+    "CreatedDate": "/Date(1628386857373)/",
+    "LastCheckedDate": "/Date(1628386859400)/",
+    "LastUpdatedDate": "/Date(1628386859400)/",
+    "Deleted": false,
+    "Notes": "",
+    "InHistory": true,
+    "SyncClientCreationId": null,
+    "DueTimeSpecified": true,
+    "OwnerId": 690429
+}
+Request method:	DELETE
+Request URI:	https://todo.ly/api/items/10910746.json
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Basic dWNiQHVjYjIwMjEuY29tOjEyMzQ1
+				Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Cache-Control: no-cache, no-store, must-revalidate
+Pragma: no-cache
+Content-Type: application/json; charset=utf-8
+Expires: -1
+Server: Microsoft-IIS/8.0
+Set-Cookie: ASP.NET_SessionId=3bcvodeecdjvrrgzwtvk4hwd; path=/; HttpOnly; SameSite=Lax
+X-AspNetMvc-Version: 2.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Sun, 08 Aug 2021 01:41:01 GMT
+Content-Length: 552
+
+{
+    "Id": 10910746,
+    "Content": "LuzItemUpdate",
+    "ItemType": 1,
+    "Checked": true,
+    "ProjectId": null,
+    "ParentId": null,
+    "Path": "",
+    "Collapsed": false,
+    "DateString": null,
+    "DateStringPriority": 0,
+    "DueDate": "",
+    "Recurrence": null,
+    "ItemOrder": null,
+    "Priority": 4,
+    "LastSyncedDateTime": "/Date(1628386861944)/",
+    "Children": [
+        
+    ],
+    "DueDateTime": null,
+    "CreatedDate": "/Date(1628386857373)/",
+    "LastCheckedDate": "/Date(1628386859400)/",
+    "LastUpdatedDate": "/Date(1628386861943)/",
+    "Deleted": true,
+    "Notes": "",
+    "InHistory": true,
+    "SyncClientCreationId": null,
+    "DueTimeSpecified": true,
+    "OwnerId": 690429
+}
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
